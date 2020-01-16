@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+
+struct Card{ //what a card should contain
+    var emoji: String
+    var matched: Bool = false
+    var id: Int
+    var display: Bool = false
+    
+    func compare(otherCard:Card)->Bool{
+        return (self.emoji == otherCard.emoji && self.id != otherCard.id)
+    }
+}

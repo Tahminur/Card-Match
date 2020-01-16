@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45C1C81E23C004CB009A5B8B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1C81D23C004CB009A5B8B /* CardStack.swift */; };
+		45C1C82023C0051F009A5B8B /* CardMatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C1C81F23C0051F009A5B8B /* CardMatchData.swift */; };
 		45E817A423BEF97700E46FE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E817A323BEF97700E46FE1 /* AppDelegate.swift */; };
 		45E817A623BEF97700E46FE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E817A523BEF97700E46FE1 /* SceneDelegate.swift */; };
 		45E817A923BEF97700E46FE1 /* Card_Match.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45E817A723BEF97700E46FE1 /* Card_Match.xcdatamodeld */; };
@@ -16,6 +18,7 @@
 		45E817B323BEF97800E46FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E817B123BEF97800E46FE1 /* LaunchScreen.storyboard */; };
 		45E817BE23BEF97800E46FE1 /* Card_MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E817BD23BEF97800E46FE1 /* Card_MatchTests.swift */; };
 		45E817C923BEF97800E46FE1 /* Card_MatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E817C823BEF97800E46FE1 /* Card_MatchUITests.swift */; };
+		45E817D723BF035100E46FE1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E817D623BF035100E46FE1 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45C1C81D23C004CB009A5B8B /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		45C1C81F23C0051F009A5B8B /* CardMatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMatchData.swift; sourceTree = "<group>"; };
 		45E817A023BEF97700E46FE1 /* Card Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E817A323BEF97700E46FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E817A523BEF97700E46FE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		45E817C423BEF97800E46FE1 /* Card MatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card MatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E817C823BEF97800E46FE1 /* Card_MatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_MatchUITests.swift; sourceTree = "<group>"; };
 		45E817CA23BEF97800E46FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E817D623BF035100E46FE1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				45E817A323BEF97700E46FE1 /* AppDelegate.swift */,
+				45E817D623BF035100E46FE1 /* Card.swift */,
 				45E817A523BEF97700E46FE1 /* SceneDelegate.swift */,
+				45C1C81D23C004CB009A5B8B /* CardStack.swift */,
+				45C1C81F23C0051F009A5B8B /* CardMatchData.swift */,
 				45E817AA23BEF97700E46FE1 /* ContentView.swift */,
 				45E817AC23BEF97800E46FE1 /* Assets.xcassets */,
 				45E817B123BEF97800E46FE1 /* LaunchScreen.storyboard */,
@@ -270,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C1C82023C0051F009A5B8B /* CardMatchData.swift in Sources */,
 				45E817A923BEF97700E46FE1 /* Card_Match.xcdatamodeld in Sources */,
 				45E817A423BEF97700E46FE1 /* AppDelegate.swift in Sources */,
+				45C1C81E23C004CB009A5B8B /* CardStack.swift in Sources */,
+				45E817D723BF035100E46FE1 /* Card.swift in Sources */,
 				45E817AB23BEF97700E46FE1 /* ContentView.swift in Sources */,
 				45E817A623BEF97700E46FE1 /* SceneDelegate.swift in Sources */,
 			);
